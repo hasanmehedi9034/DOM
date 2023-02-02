@@ -60,3 +60,14 @@ search google for know more event
 
 // DOM navigations
 
+// create a new HTML
+
+const para = document.createElement('p');
+
+const node = document.createTextNode('Hello World! form js');
+para.appendChild(node);
+
+const body = document.body;
+body.appendChild(para);
+
+
