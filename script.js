@@ -14,8 +14,10 @@
 
 // console.log(document.querySelectorAll('p'))
 
-const a = document.getElementById('anchor');
-console.log(a.innerHTML)
+// const a = document.getElementById('anchor');
+// console.log(a.innerHTML)
+
+console.dir(document.forms['form1'])
 
 
 
