@@ -17,9 +17,20 @@
 // const a = document.getElementById('anchor');
 // console.log(a.innerHTML)
 
-console.dir(document.forms['form1'])
+// console.dir(document.forms['form1'])
 
-document.write('All elements are vanished')
+// document.write('All elements are vanished')
+
+function validateForm() {
+    const form = document.forms['myForm'];
+    // console.dir(form['fname'].value);
+    const value = form['fname'].value;
+
+    if (value === '') {
+        alert('You must type name')
+        return false;
+    }
+}
 
 
 
