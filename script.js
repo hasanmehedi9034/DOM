@@ -32,6 +32,8 @@
 //     }
 // }
 
+// js animation
+
 const p = document.querySelector('#demo');
 p.style.color = 'red'
 
