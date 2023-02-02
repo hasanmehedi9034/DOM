@@ -21,16 +21,21 @@
 
 // document.write('All elements are vanished')
 
-function validateForm() {
-    const form = document.forms['myForm'];
-    // console.dir(form['fname'].value);
-    const value = form['fname'].value;
+// function validateForm() {
+//     const form = document.forms['myForm'];
+//     // console.dir(form['fname'].value);
+//     const value = form['fname'].value;
 
-    if (value === '') {
-        alert('You must type name')
-        return false;
-    }
-}
+//     if (value === '') {
+//         alert('You must type name')
+//         return false;
+//     }
+// }
+
+const p = document.querySelector('#demo');
+p.style.color = 'red'
+
+
 
 
 
