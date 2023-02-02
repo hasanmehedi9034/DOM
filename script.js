@@ -62,12 +62,13 @@ search google for know more event
 
 // create a new HTML
 
-const para = document.createElement('p');
+// const para = document.createElement('p');
 
-const node = document.createTextNode('Hello World! form js');
-para.appendChild(node);
+// const node = document.createTextNode('Hello World! form js');
+// para.appendChild(node);
 
-const body = document.body;
-body.appendChild(para);
+// const body = document.body;
+// body.appendChild(para);
 
 
+console.dir(document.querySelectorAll('p'));
