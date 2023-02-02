@@ -34,10 +34,24 @@
 
 // js animation
 
-const p = document.querySelector('#demo');
-p.style.color = 'red'
+// const p = document.querySelector('#demo');
+// p.style.color = 'red'
+
+
+/*
+    events:
+        onload,
+        onunload,
+        onchange, 
+        onclick, 
+        onmouseover, 
+        onmouseout,
+        
+*/
 
 
 
 
-
+function changeText() {
+    this.innerHTML = 'Hello'
+}
