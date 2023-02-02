@@ -71,4 +71,5 @@ search google for know more event
 // body.appendChild(para);
 
 
-console.dir(document.querySelectorAll('p'));
+// console.dir(document.querySelectorAll('p'));
+// console.dir(document.getElementsByTagName('p'));
