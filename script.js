@@ -23,7 +23,7 @@
 
 // function validateForm() {
 //     const form = document.forms['myForm'];
-//     // console.dir(form['fname'].value);
+//     console.dir(form['fname'].value);
 //     const value = form['fname'].value;
 
 //     if (value === '') {
@@ -46,12 +46,17 @@
         onclick, 
         onmouseover, 
         onmouseout,
-        
+    
+
+search google for know more event     
 */
 
 
 
 
-function changeText() {
-    this.innerHTML = 'Hello'
-}
+// function changeText() {
+//     this.innerHTML = 'Hello'
+// }
+
+// DOM navigations
+
