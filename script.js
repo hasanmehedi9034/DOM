@@ -19,5 +19,7 @@
 
 console.dir(document.forms['form1'])
 
+document.write('All elements are vanished')
+
 
 
